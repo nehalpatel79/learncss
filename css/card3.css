@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: MonaSansLight;
+    src: url(../fount/MonaSans-Light.ttf);
+    font-size: 400px;
+    font-style: normal;
+}
+@font-face{
+    font-family: MonaSans;
+    src: url(../fount/MonaSans-Bold.ttf);
+    font-size: 700;
+    font-style: normal;
+}
+body{
+    background-color: #AEDAA6;
+}
+.card{
+    height: 400px;
+    width: 650px;
+    /* border: 2px solid black; */
+    margin: 70px auto;
+    background-color: #FFFFFF;
+}
+.box{
+    width: 100%;
+    height: 15%;
+    border-bottom: 1px solid #BEB5BF;
+    /* border: 2px solid red;  */
+}
+.back{
+    height: 100%;
+    width: 90%;
+    float: left;
+    padding: 22px 20px;
+}
+.heart{
+    height: 100%;
+    width: 10%;
+    /* border: 2px solid rgb(195, 73, 142); */
+    float: left;
+}
+.lessthan{
+    color: #BEB5BF;
+    display: block;
+    float: left;
+    margin-right:15px;
+}
+.back h5{
+    float: left;
+    font-size: 14px;
+    font-family:MonaSansLight;
+    font-weight: 10px;
+    color:  #BEB5BF;
+    word-spacing: 2px;
+
+}
+.heart1{
+    margin: 20px 23px 20px 23px;
+    color: #BEB5BF;
+    display: block;
+    float: left;
+    font-size: 20px;
+}
+
+.data{
+    height: 85%;
+    width: 100%;
+}
+.part1{
+    height:100%;
+    width: 45%;
+    float: left; 
+     border-right: 1px solid #BEB5BF;
+    
+}
+.part2{
+    height:100%;
+    width: 54.5%;
+    float: left;
+    padding: 30px 25px;
+}
+.part1 img{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 30px 35px 40px 35px;
+}
+.part2 h1{
+    float: left;
+    font-size: 20px;
+    font-family:  MonaSansLight;
+    font-weight: bolder;
+    color:#6F565C;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.part2 H3{
+    float: left;
+    font-size: 13px;
+    font-family:MonaSansLight;
+    color:#6F565C;
+    word-spacing: 1px;
+    margin-bottom: 17px;
+}
+.part2 H2{
+    font-size: 25px;
+    font-family:MonaSansLight;;
+    color:#6F565C;
+    font-weight:500;
+    word-spacing: 1px;
+    clear: both;
+}
+.part2 p{
+    float: left;
+    font-size: 12px;
+    font-family:MonaSansLight;
+    margin-top: 17px;
+    color:#6F565C;
+    word-spacing:1px;
+    line-height: 20px;
+    margin-bottom: 17px;
+    
+}
+/* .button{
+    height: 15%;
+    width: 100%;
+    float: left;
+     */
+}
+.button{
+    height: 65%;
+    width: 37%;
+    border: 1px solid rgb(34, 35, 34);
+    float: left; 
+}
+
+/* .add{
+    height: 65%;
+    width: 37%;
+    border: 1px solid rgb(34, 35, 34);
+    float: left; 
+}
+.wish{
+    height: 65%;
+    width: 37%;
+    border: 1px solid rgb(34, 35, 34);
+    margin: 0 65px  0 0;
+    float:right;
+     */
+.card1{
+    font-size : 11px;
+    font-family:  MonaSansLight;
+    color:#6F565C;
+    padding: 7px 15px;
+    word-spacing: 2px; 
+    display: inline-block;
+    text-decoration: none; 
+    height: 65%;
+    width: 37%;
+    border: 1px solid rgb(34, 35, 34);
+
+}
+.wish1{
+    font-size: 12px;
+    font-family:MonaSansLight;
+    color:#6F565C;
+    padding: 6px 27px;
+    word-spacing: 2px; 
+    display: inline-block;
+    text-decoration: none;
+     height: 65%;
+    width: 37%;
+    border: 1px solid rgb(34, 35, 34);
+     margin: 0 65px  0 0;
+    float:right;
+}

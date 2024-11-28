@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  background-color: #fff;
+}
+.product {
+  width: 85%;
+  margin: 25px auto;
+  position: relative;
+}
+.card1 {
+  height: 300px;
+  width: 30%;
+  border: 1px solid pink;
+  margin: 50px auto;
+  border-radius: 10px;
+  float: left;
+  background-color: #cc3843;
+  background-image:url(../ima/starwars.png);
+}
+.card2 {
+  border: 1px solid #1b3572;
+  margin: 50px auto;
+  border-radius: 10px;
+  width: 36%;
+  float: right;
+  position: absolute;
+  left: 18%;
+  top: 22px;
+  background-color: #0c1f2c;
+  padding: 22px 0 25px 120px;
+}
+img {
+  width: 46%;
+  position: absolute;
+  top: 60px;
+  left: -70px;
+}
+h2 {
+  color: #fff;
+}
+h3 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.size {
+  float: left;
+  border-right: 1px solid #cb2040;
+  padding: 18px 23px 18px 0;
+  margin: 12px 0;
+}
+.rate {
+  height: 90px;
+  width: 50%;
+  float: right;
+  padding-top: 16px;
+}
+.size p {
+  color: #fff;
+  font-size: 6px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+.size .s {
+  color: #fff;
+  font-size: 8px;
+  text-decoration: none;
+}
+.s-circle {
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 2px 0;
+  border: 1px solid #cb2040;
+  display: inline-block;
+}
+.rate h4 {
+  color: #fff;
+  font-size: 10px;
+}
+.rate h5 {
+  color: #fff;
+  font-size: 6px;
+  letter-spacing: 2px;
+}
+.cart {
+  /* float: left; */
+} 
+ /* .wish {
+  float: right; 
+} */
+.button {
+  display: block;
+  color: #fff;
+  background-color: #cb2040;
+  border-radius: 30px;
+  text-decoration: none;
+  padding: 10px 14px;
+  font-size: 8px;
+  /* letter-spacing: 1px; */
+  text-align: center;
+  word-spacing: 1px;
+  float: left;
+}
+.heart {
+  text-decoration: none;
+  color: #374550;
+  font-size: 8px;
+  /* padding:  0 0 10px 14px; */
+  margin: 5px 22px 0 0px;
+  display: inline-block;
+  float: right;
+}
+i {
+  margin: 5px;
+  color: #cb2040;
+}
+.process-circle {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 8px;
+  border: 1px solid;
+  border-radius: 50%;
+  border-top-color: #cb2040;
+  border-right-color: #cb2040;
+  border-bottom-color: #cb2040;
+  text-align: center;
+  padding: 14px 0;
+  border-left-color: #0c1f2c;
+}

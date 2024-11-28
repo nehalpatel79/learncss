@@ -1,0 +1,80 @@
+.colname
+{
+    color: red;
+}
+
+.colHash{
+    color: #000000;
+    color: #ffffff;
+    color: #ff0000;
+    color: #00ff00;
+    color: #0000ff;
+    color: #
+
+}
+/* 0-255 */
+.colRGBA{
+    /* color: rgba(red, green, blue, alpha); */
+    color: rgba(0,0,0,1);
+    color: rgba(255,255,255,1);
+    color: rgba(255,0,0,1);
+    color: rgba(0,255,0,1);
+    color: rgba(0,0,255,1);
+    color: rgb(234, 16, 205,1);
+
+}
+.colHSLA{
+    /* color: hsla(hue 0-360, saturation 0-100%, lightness 0-100%, alpha 0-1); */
+    color: hwb(100 5% 7% / 0.867);
+}
+.colce{
+    text-align: center;
+}
+.colle{
+    text-align: left;
+}
+.coljust{
+    text-align: justify;
+}
+.colri{
+    text-align: right;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.low
+{
+    text-transform: lowercase;
+}
+.cap{
+    text-transform: capitalize;
+}
+.unde{
+    text-decoration: underline;
+}
+.over{
+    text-decoration: overline;
+}
+.line{
+    text-decoration: line-through;
+}
+.none{
+    text-decoration: none;
+}
+ .in{
+    text-indent: 50px;
+}
+.spac{
+    letter-spacing: 5px;
+}
+.wo{
+    word: spacing 10px;;
+}
+.height{
+    line-height: 70px;
+}
+.white{
+    white-space: nowrap;
+}
+
+

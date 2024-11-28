@@ -1,0 +1,44 @@
+.box{
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    
+}
+.stbox
+{
+    position: static;
+    top: 500px;
+    bottom: 400px;
+}
+.relbox{
+    position: relative;
+    top: 50px;
+    left: 500px;
+}
+.absbox{
+    position: absolute;
+    top: 90px;
+    left: 500px;
+}
+.parentbox{
+    position:relative;
+    height: 300px;
+    width: 450px;
+    border: 2px solid brown;
+    
+}
+.childbox{
+    position: absolute;
+    left: 70px;
+    top: 0;
+
+}
+.fxbox{
+    position: fixed;
+    top: 5px;
+}
+
+.stibox{
+    position: sticky;
+    top: 5px;
+}

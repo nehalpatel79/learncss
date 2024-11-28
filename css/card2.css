@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: MonaSans;
+    src: url(../fount/MonaSans-Bold.ttf);
+    font-size: 700;
+    font-style: normal;
+}
+@font-face{
+    font-family:MonaSans;
+    src: url(../fount/MonaSansExpanded-Medium.ttf);
+    font-size: 500;
+    font-style: normal;
+}
+@font-face{
+    font-family: MonaSans;
+    src: url(../fount/MonaSansExpanded-Regular.ttf);
+    font-size: 400;
+    font-style: normal;
+}
+.card{
+    height: 600px;
+    width: 900px;
+    background-color: #A826DE;
+    margin: 100px auto;
+    padding: 15px;
+}
+.box{
+
+    background-color:#FFFFFF;
+    height: 75%;
+    width: 65%;
+    margin: 50px auto;
+}
+.box1{
+    height: 10%;
+    width: 100%;
+    margin: 10px 0;
+}
+.head{
+    width: 60%;
+    height: 65%;
+    margin: 10px 12px 15px 28px;
+    background-color: #115DD8;
+    float: left;
+}
+.arrow{
+    color: white;
+    margin: 5px 5px;
+    display: block;
+}
+.name{
+    width: 25%;
+    height: 45%;
+    float: left; 
+}
+.name h2{
+       margin: 19px 12px 15px 10px ;
+        float: left;
+        font-family:MonaSans ;
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing: 1px;
+
+}
+.img{
+    width: 93%;
+    height: 65%;
+    margin: 10px 5px 10px 10px;
+    float: left;
+}
+
+.chair{
+    height: 100%;
+    width: 55%;
+    float: left;
+}
+.type{
+    width: 100%;
+    height: 35%;
+}
+.type h1{ 
+    font-size: 30PX;
+    font-weight: bolder;
+    font-family:MonaSans;
+    /* margin: 5PX; */
+    margin: 0 0 0 28px ;
+    letter-spacing: 1px;
+}
+.type h3{ 
+    font-size: 12PX;
+    font-weight: normal;
+    font-family:MonaSans;
+    /* margin: 5PX; */
+    margin: 0 0 0 28px ;
+    letter-spacing: 1px;
+}
+.type h2{
+    font-size: 20PX;
+    font-weight: bolder;
+    font-family:MonaSans;
+    letter-spacing: 1px;
+    margin: 0 0 0 28PX;
+
+}
+.proimg {
+    width: 100%;
+    height: 64%;
+    /* text-align: center; */
+}
+.proimg img{ 
+    height: 100%;
+    margin: 0 0 0 28px;
+}
+.write{
+    height: 100%;
+    width: 45%;
+    float: left;
+}
+.write p{ 
+    font-size: 11px;
+    font-family:MonaSans;
+    margin: 20px 0 0 15px;
+    /* padding: 0 25px ; */
+    word-spacing: 2px;
+    line-height: 20px;
+}
+.write h2{ 
+    color: #A8CE1A;
+    font-family: MonaSans;
+    font-size: 12px;
+    margin: 20px 0 10px 15px;
+    padding: 0 25px;
+    word-spacing: 2px;
+}
+.star{ 
+    color: #F8C21E;
+    font-size: 10px;
+    margin: 20px 0 10px 15px;
+    padding: 0 25px;
+    float: left;
+} 
+.star h5{
+    float: right;
+    color: black;
+    margin: 0 0 0 2px;
+    font-size: 10px;
+    font-family: MonaSans;
+}
+.line{ 
+    width: 95%;
+    /* border: 1px solid rgb(19, 19, 19); */
+    float: left;
+    height: 2px;
+    margin: 0 0 0 28px;
+    background-color: gray;
+}
+.linepro{
+    width: 25%;
+    border: 1px solid  #115DD8;
+    float: left;
+    height: 2px; 
+}
+.last{
+    height: 17%;
+    width: 100%;
+    float: left;
+}
+.by{ 
+    height: 18%;
+    width: 70%;
+    float: left;
+} 
+.by H5{
+    font-size: 10PX;
+    margin: 26PX 0 0 28px;
+    color:black;
+    letter-spacing: 0;
+    font-weight: 10px;
+    font-family: MonaSans;;
+    
+}
+.by h2{
+    font-size: 15PX;
+    margin: 2px 0 0 28px;
+    color:#396CDA;
+    letter-spacing: 0;
+    font-weight: 10px;
+    font-family: MonaSans;; 
+}
+.button1{ 
+    height: 18%;
+    width: 30%;
+   float: left;
+}
+.button{
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: #115DD8;
+    margin:20px 0 0 27px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;  
+    float: left;
+    margin-right: 1px;
+    font-family: MonaSans;
+    /* letter-spacing: 2px; */
+} 

@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  background-color: #f3e1e2;
+}
+.container {
+  width: 85%;
+  margin: 50px auto;
+}
+.product {
+  height: 500px;
+  width: 46%;
+  background-color: #ffffff;
+  margin: auto;
+  border-radius: 30px;
+  box-shadow: -10px 0px 20px 0px rgba(0, 0, 0, 0.2)
+}
+.left {
+  width: 50%;
+  height: 100%;
+  float: left;
+  padding-left: 50px;
+  margin: 50px auto;
+  text-align: center;
+}
+.left h3 {
+  color: #a91c40;
+  font-size: 28px;
+  margin-bottom: 36px;
+}
+.left h5 {
+  color: #8c7c7c;
+  font-size: 15px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.right {
+  float: right;
+  height: 100%;
+  width: 50%;
+  background-color: #fb6654;
+  border-top-left-radius: 270px;
+  border-bottom-left-radius: 270px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.left .fb {
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  padding: 2px 0;
+  border: 2px solid #a91c40;
+  display: inline-block;
+  color: #a91c40;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+.left .google {
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  border: 2px solid #a91c40;
+  display: inline-block;
+  color: #a91c40;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  padding: 2px 0;
+}
+.right h5 {
+  color: #8c7c7c;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.search-input {
+  padding: 12px 8px;
+  width: 62%;
+  display: inline;
+  text-transform: capitalize;
+  font-size: 14px;
+  background-color: #efefef;
+  border: none;
+  margin-bottom: 10px;
+}
+.for {
+  color: #a91c40;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+.button{
+  background-color: #a91c40;
+  color:#fff;
+  font-size: 16px;
+  padding: 10px 40px;
+  margin-top: 25px;
+  text-align: center;
+  border-radius: 30px;
+  border: none;
+}
+img {
+  /* width: 22%; */
+}
+.right {
+  background-image: url(../ima/exam);
+  background-position: right center;
+  background-size: cover;
+}

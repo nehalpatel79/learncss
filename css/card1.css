@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: MonaSans;
+    src: url(../fount/MonaSans-Bold.ttf);
+    font-size: 500;
+    font-style: normal;
+}
+@font-face{
+    font-family:MonaSans;
+    src: url(../fount/MonaSansExpanded-Medium.ttf);
+    font-size: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: MonaSans;
+    src: url(../fount/MonaSansExpanded-Regular.ttf);
+    font-size: 300;
+    font-style: normal;
+}
+body{
+    background-color:#D9C4C7 ; 
+    font-family:MonaSans;
+    /* text-align: justify; */
+    /* text-transform: capitalize; */
+}
+ .card{
+    
+    height: 450px;
+    width: 700px;
+    margin: 100px auto;
+    background-color: #F5F5F5;
+}
+.img{
+   height: 100%;
+   width: 60%; 
+   background-color: #EBEBEB;
+   float: left;
+   border-radius: 15px 0 0 15px;
+
+}
+.data{ 
+    height: 100%;
+    width: 40%; 
+    background-color: #EBEBEB;
+    float: left;
+    border-radius:0  15px 15px 0;
+    padding: 0 10px;
+   
+}
+.pro{ 
+    width: 100%;
+    height: 75%;
+
+}
+.size{ 
+    width: 100%;
+    height: 25%;
+    
+}
+.pro img{ 
+    height: 100%;
+    width: 100%;
+}
+.size h3{
+    font-size: 15px;
+    color: #D8BBBE;
+    margin: 10px; 
+}
+.size .box{ 
+    float: left;
+    margin: 3px;
+    padding: 13px;
+    border: 2px solid #E6D5D6;
+
+}
+.data h5{ 
+    FONT-SIZE: 11PX;
+    margin: 50px 5px ;
+    padding: 6px 0px; 
+    color: #D9C4C7 ;
+    letter-spacing: 2px;
+    margin:20px 0 0 0;
+    letter-spacing: 2px;
+}
+.data h1{
+    FONT-SIZE: 22PX;
+    margin: 50px 5px ;
+    padding: 6px 0px; 
+    color:black ;
+    letter-spacing: 2px;
+    margin:20px 0 0 0;
+    letter-spacing: 2px;
+}
+ .data h2{ 
+    
+    font-size: 20px;
+    padding: 6px 0;
+    margin:0  5px;
+    color: #CAA8AA;
+}
+.data p{ 
+    text-align: justify;
+    margin:0 5px;
+    padding:6px 0; 
+    color: #9E9FA9
+}
+.add{
+    background-color:#CDA9AC;   
+    margin:15px 10px;
+    padding:15px 30px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;  
+    color: white;
+    float: left;
+    margin-right: 1px;
+    letter-spacing: 2px;
+}
+.heart{
+    font-size: 19px;
+    background-color:#CDA9AC;
+    margin: 14px 2px;
+    padding: 12px;
+    float: left;
+    color: white;
+
+}

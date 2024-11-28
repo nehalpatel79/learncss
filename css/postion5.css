@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: #2A2F40;
+}
+.container{
+    width: 85%;
+    margin: 15px auto;
+}
+.product{
+    height: 340px;
+    width: 66%;
+    margin: 90px auto;
+    position: relative; 
+    border-end-end-radius: 4px;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    position: relative; 
+    background-color: #FF6D39;
+    border-top-right-radius: 170px;
+    border-bottom-right-radius: 170px;
+    float: left;
+}
+.img{
+    position: relative;
+}
+.img img{
+    width: 136%;
+    top: 60px;
+    left: -77px;
+    position: absolute;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    padding-left: 20px;
+    /* border: 1px solid red; */
+    float: right;
+}
+.header h4{
+    color:  #FF6D39;
+    font-weight: 500;
+    display: inline-block;
+}
+.a{
+    float: right;
+    margin: 10px;
+    color: aliceblue;
+}
+h3 {
+    color: #ffffff;
+    margin-top: 84px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  h2 {
+    color: #ffffff;
+    margin-top: 10px;
+    font-weight: 800;
+    font-size: 24px;
+  }
+  h4 {
+    display: inline-block;
+    color: #ffffff;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  h4.b{
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 17px;
+    margin-left: 30px;
+    text-decoration: line-through #ea3201;
+  }
+.box{
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+}
+.size-{
+    margin: 16px 0;
+}
+.size{ 
+    color: #fff;
+    display: block;
+    float: right;
+    margin: 6px 14px;
+    padding: 0 6px;
+    font-size: 10px;
+    text-decoration: none;
+}
+.colour-{
+     margin: 16px 0px;
+} 
+.yellow{ 
+    display: block;
+    float: right;
+    padding: 8px 8px;
+    background-color: #fec60f;;
+    border-radius: 50%;
+    margin-right: 45px;
+    margin-top: 5px;
+    font-size: 10px;
+}
+.black{
+    display: block;
+    float: right;
+    padding: 8px 8px;
+    background-color:black;
+    border-radius: 50%;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-right: 45px;
+}
+.blue{ 
+    display: block;
+    float: right;
+    padding: 8px 8px;
+    margin-right: 45px;
+    margin-top: 5px;
+    background-color:#02a2ca;
+    border-radius: 50%;
+    font-size: 10px;
+}
+.bag{
+    color: #ffffff;
+    margin-top: 32px;
+    margin-right: 54px;
+    font-size: 12px;
+    float:right ;
+    text-decoration: none;
+}
+
+.cart i{
+    color: #fff;
+    margin: 6px;
+}
+

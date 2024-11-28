@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #00df7d;
+  font-family: sans-serif;
+}
+@font-face {
+  font-family: MonaSans;
+  src: url(../fount/MonaSans-Regular.ttf);
+  font-size: 400;
+  font-style: normal;
+}
+.container {
+  width: 44%;
+  margin: 0 auto;
+}
+.product {
+  height: 336px;
+  margin: 94px auto;
+  background-color: white;
+  border-radius: 5px;
+  position: relative;
+}
+.inside-box {
+  height: 276px;
+  width: 48%;
+  background-color: #c1ec59;
+  margin: 26px 0 18px 0;
+  padding: 10px 0;
+  position: absolute;
+  border-radius: 5px;
+  left: -5%;
+}
+.inside-box .apple {
+  width: 78%;
+  position: absolute;
+  left: -30px;
+  top: 44px;
+}
+
+.share {
+  color: white;
+  margin-left: 10px;
+  float: left;
+}
+.heart {
+  color: white;
+  float: right;
+  margin-right: 10px;
+}
+.down {
+  width: 100%;
+  background-color: #ffff;
+  clear: both;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  position: absolute;
+  bottom: 0;
+}
+
+.box {
+  height: 38px;
+  width: 38px;
+  border: 1px solid #ababab;
+  float: left;
+  margin: 10px 8px;
+  border-radius: 4px;
+}
+.box img {
+  width: 100%;
+}
+.outside .box{
+  height: 26px;
+  width: 26px;
+  border: 1px solid #ababab;;
+  margin: 8px 8px 8px 0;
+  border-radius: 0;
+}
+.img img {
+  width: 10%;
+  margin: 10px 5px;
+  float: left;
+}
+.outside {
+  width: 58%;
+  /* height: 338px; */
+  float: right;
+  padding: 32px 0 0 26px;
+}
+.outside h3 {
+  color: #333;
+  font-size: 20px;
+  font-family: MonaSans;
+  font-style: normal;
+  font-weight: bolder;
+}
+.outside p {
+  color: #60524d;
+  font-size: 8px;
+  font-family: MonaSans;
+  clear: both;
+}
+.outside h5 {
+  color: #ff3f40;
+  margin: 25px 0 0 0;
+}
+.box-in{
+  width: 100%;
+  /* border: 1px solid red; */
+  height: 34px;
+}
+.outside h5 span {
+  color: #ff3f40;
+  font-size: 40px;
+  font-family: MonaSans;
+  font-style: normal;
+}
+li {
+  font-family: MonaSans;
+  color: #757385;
+  font-size: 8px;
+}
+.button {
+  display: block;
+  color: white;
+  background-color: #ff3f40;
+  border-radius: 6px;
+  height: 32px;
+  width: 120px;
+  text-decoration: none;
+  margin: 28px 0;
+  padding: 10px 20px;
+  font-size: 10px;
+  letter-spacing: 1px;
+}

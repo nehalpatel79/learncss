@@ -1,0 +1,33 @@
+p{
+    color:blueviolet;
+}
+h1{
+    color: darkblue;
+}
+h2{
+    color: darkcyan;
+}
+button{
+    color: darkgreen;
+}
+td{
+    color:navy
+}
+.abc{
+    text-align: center;
+}
+.bbb{
+    text-align: center;
+}
+.ccc
+{
+    text-align: center;
+}
+.get{
+    text-align: center;
+}
+.col{
+    text-indent: 50px;
+    text-align: justify;
+    text-transform: capitalize ;
+}

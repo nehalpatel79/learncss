@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: #131313;
+}
+.container{
+    width: 85%;
+    margin: 25px auto;
+}
+.product{
+    height: 400px;
+    width: 28%;
+    background-color: #232323;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+.up{
+    height: 174px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.in{
+    height: 280px;
+    width: 500px;
+    border-radius: 50%;
+    background-color: #95D229;
+    position: absolute;
+    top: -66%; 
+    right: -99%;
+}
+.img{
+    position: relative;
+}
+.img img{
+    width: 84%;
+    margin: 0px 30px;
+}
+.down{
+    /* height: 250px; */
+    /* width: 100%; */
+}
+.down h3{
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 15px;
+}
+.size-{
+    /* height: 16%; */
+    margin: 0 14px;
+    padding: 10px 20px;
+}
+ .box{
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    display: block;
+    display: inline;
+}
+.size{ 
+    color: #131313;
+    display: block;
+    float: right;
+    margin: 0px 8px;
+    padding: 4px 6px;
+    border: 1px solid wheat;
+    background-color: #fff;
+    border-radius: 4px;
+    font-size: 10px;
+}
+.green{
+    color: #131313;
+    display: block;
+    float: right;
+    margin: 0px 8px;
+    padding: 4px 6px;
+    background-color: #95D229;
+    border-radius: 4px;
+    font-size: 10px;
+}
+.colour-{
+    /* height: 16%; */
+    margin: 0 14px;
+    padding: 10px 48px;
+}
+.pink{ 
+    display: block;
+    float: right;
+    padding: 6px 6px;
+    background-color:#7B2E43;
+    margin: 5px;
+    border-radius: 50%;
+    font-size: 10px;
+}
+.blue{ 
+    display: block;
+    float: right;
+    padding: 6px 6px;
+    background-color:#3A90BF;
+    border-radius: 50%;
+    margin: 5px;
+    font-size: 10px;
+}
+.green1{ 
+    display: block;
+    float: right;
+    padding: 6px 6px;
+    margin: 5px;
+    background-color:#95D229;;
+    border-radius: 50%;
+    font-size: 10px;
+}
+.button {
+    display: block;
+    color:black;
+    background-color:#fff;
+    border-radius: 4px;
+    /* height: 32px; */
+    /* width: 120px; */
+    text-decoration: none;
+    margin: 25px 60px;
+    padding: 10px 20px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+} 

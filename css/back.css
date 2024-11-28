@@ -1,0 +1,47 @@
+.box {
+  height: 250px;
+  width: 300px;
+  border: 2px solid black;
+  background-image: url(../ima/back1);
+  background-size: cover;
+  float: left;
+}
+.box1 {
+  height: 250px;
+  width: 300px;
+  border: 2px solid black;
+  background-image: url(../ima/back1);
+  background-size: cover;
+  background-position: right center;
+  float: right;
+}
+.box2 {
+    clear: both;
+  height: 250px;
+  width: 300px;
+  border: 2px solid black;
+  background-image: url(../ima/flower);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #E2CEB6;
+}
+.box3 {
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    margin-top: 50px;
+    background-image: url(../ima/flower);
+    background-size: cover;
+    background-position: bottom;
+  }
+.box4 {
+    clear: both;
+    height: 500px;
+    width: 600px;
+    border: 2px solid black;
+    margin-top: 30px;
+    background-image: url(../ima/logo3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
