@@ -242,6 +242,7 @@ h3.sub{
   margin-bottom: 50px;
 }
 
+
 #secure .container {
   display: flex;
   padding: 50px 0 80px 0;
@@ -250,6 +251,10 @@ h3.sub{
 }
 .secure-left img{
   width: 510px;
+  margin: 20px;
+}
+.secure-left p{
+  margin-top: 20px;
 }
 .secure-right h2{
   margin-bottom: 30px;
@@ -258,7 +263,8 @@ h3.sub{
 
 .safe {
   display: flex;
-  align-items: center;
+  column-gap: 30px;
+  /* align-items: center; */
 }
 .safe img{
   width: 72px;
