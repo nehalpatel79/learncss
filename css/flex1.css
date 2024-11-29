@@ -137,8 +137,9 @@ ul li:hover {
 
 .section-article {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   margin-bottom: 100px;
+  column-gap: 20px;
 }
 
 #possibilities img {
