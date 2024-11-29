@@ -28,7 +28,7 @@ header .container {
 .left-header {
   display: flex;
   align-items: center;
-  column-gap: 20px;
+  column-gap: 30px;
 }
 
 .img img {
@@ -56,7 +56,7 @@ ul li:hover {
 
 .right-header {
   display: flex;
-  column-gap: 30px;
+  column-gap: 40px;
   align-items: center;
 }
 
@@ -119,6 +119,7 @@ ul li:hover {
   color: white;
   background-color: rgb(230, 2, 120);
   border-radius: 4px;
+  font-size: 20px;
 }
 
 #possibilities{
@@ -126,11 +127,14 @@ ul li:hover {
 }
 
 h2.main{
-  font-size: 36px;
+  font-size: 41px;
 }
 
 #possibilities h2 {
   margin-bottom: 20px;
+}
+p.one{
+  font-size: 24px;
 }
 .project{
   max-width: 30%;
@@ -168,8 +172,9 @@ h3.sub{
 }
 
 
+
 #possibilities{
-  border-bottom: 2px solid #DCE1E8;
+  border-bottom: 1px solid #DCE1E8;
 }
 
 #work .container {
@@ -180,6 +185,9 @@ h3.sub{
 }
 #work img {
   width: 510px;
+}
+.work p{
+  font-size: 16px;
 }
 .work-right h2{
   margin-bottom: 30px;
@@ -201,7 +209,7 @@ h3.sub{
   font-weight: bold;
 }  
 #work{
-  border-bottom: 2px solid #DCE1E8;
+  border-bottom: 1px solid #DCE1E8;
 }
 #contact .container {
   display: flex;
@@ -238,7 +246,7 @@ h3.sub{
   width: 450px;
 }
 #contact{
-  border-bottom: 2px solid #DCE1E8;
+  border-bottom: 1px solid #DCE1E8;
   margin-bottom: 50px;
 }
 
@@ -264,11 +272,11 @@ h3.sub{
 .safe {
   display: flex;
   column-gap: 30px;
-  /* align-items: center; */
 }
 .safe img{
   width: 72px;
   height: 72px;
+  margin: 50px 0 30px 0;
 }
 .safe h3{
   margin-bottom: 16px;
@@ -278,7 +286,7 @@ h3.sub{
   color: #fff;
   padding: 50px 46px;
 }
-#project-bids h1{
+#project-bids h2{
    font-size: 40px;
    margin-bottom: 28px;
 }
@@ -289,8 +297,7 @@ h3.sub{
 #result {
   padding: 70px 40px;
 }
-#result  h1{
-  font-size: 36px;
+#result  h2{
   margin-top: 40px;
 }
 #result p{
@@ -334,12 +341,10 @@ h3.sub{
   color: #fff;
   padding: 56px 0;
 }
-#help h1{
-  font-size: 38px;
+#help h2{
   margin-bottom: 20px;
 }
 #help h3{
-  font-size: 24px;
   margin-bottom: 20px;
 }
 .Additional{
